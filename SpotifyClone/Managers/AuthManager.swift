@@ -12,6 +12,11 @@ final class AuthManager{
     
     static let shared = AuthManager()
     
+    struct Constants{
+        static let clientID = "bcbc34c64982493481ef61ecebe799b7"
+        static let clientSecret = "d0ce637889ba4e94ab52dc837818c776"
+    }
+    
     private init(){}
     
     var isSigned : Bool {
